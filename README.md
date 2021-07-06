@@ -15,21 +15,21 @@ cd Downloads
 
 Change paths in the app.py file wherever required (according to where you have stored the folder in your system – here, the folder was saved on desktop)
 
-# For setting WhatsApp alerts: In the file app.py, add the ngrok url (generated above) and your own phone number (on which you have WhatsApp)
-# Set up your twilio account – generate your own account_ssid and auth_token, and add it accordingly.
+# For setting WhatsApp alerts: 
+In the file app.py, add the ngrok url (generated above) and your own phone number (on which you have WhatsApp)
+# Set up your twilio account: 
+Generate your own account_ssid and auth_token, and add it accordingly.
 
 Instructions: https://www.twilio.com/docs/whatsapp/tutorial/send-and-receive-media-messages-whatsapp-python
 
-# For setting Telegram alerts: Create your own bot on Telegram, generate the bot ID, and replace it with the api link in line 177 of the file app.py.
+# For setting Telegram alerts: 
+Create your own bot on Telegram, generate the bot ID, and replace it with the api link in line 177 of the file app.py.
 
 # For setting Email alerts – 
 
 In app.py, lines 21 & 22, add your own email id and account password
 Gmail -> Settings -> Allow “less secure app” and disable “2-Step Verification”
 
-
-
-# Follow the below steps now –
 
 # Instructions to Execute the Project
 
